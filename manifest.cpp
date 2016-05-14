@@ -155,7 +155,7 @@ bool processFile(const std::string& fname,
                     
                     if(!inManifest)
                     {
-                        fprintf(stdout, "File '%s': include '%s' not present in manifest.\n", fname.c_str(), included.c_str());
+                        fprintf(stdout, "File '%s': included '%s' not presented in manifest.\n", fname.c_str(), included.c_str());
                         bOk = false;
                     }   
                 }
